@@ -1,11 +1,11 @@
 {
-    "name": "cityware/city-webservice",
+    "name": "cityware/city-communication",
     "type": "library",
-    "description": "Cityware Webservice",
+    "description": "Cityware Communication",
     "license": "GPL-3.0",
     "keywords": [
         "cityware",
-        "webservice"
+        "communication"
     ],
     "authors": [
         {
@@ -18,16 +18,16 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/cityware/city-webservice.git"
+            "url": "https://github.com/cityware/city-communication.git"
         }
     ],
-    "homepage": "https://github.com/cityware/city-webservice",
+    "homepage": "https://github.com/cityware/city-communication",
     "autoload": {
         "psr-4": {
-            "Cityware\\Webservice\\": "src/"
+            "Cityware\\Communication\\": "src/"
         },
         "psr-0": {
-            "Cityware\\Webservice\\": "src/"
+            "Cityware\\Communication\\": "src/"
         },
         "classmap": [
             "src/"
@@ -58,7 +58,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "CitywareTest\\Webservice\\": "test/"
+            "CitywareTest\\Communication\\": "test/"
         }
     }
 }
