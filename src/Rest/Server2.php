@@ -392,7 +392,7 @@ class Server2 {
         }
         $dom = new DOMDocument('1.0', $this->getEncoding());
         if ($class) {
-            $xml = $dom->createElement($class);
+            $xml = $dom->createElement(new $class);
             $xmlMethod = $dom->createElement($method);
             $xml->appendChild($xmlMethod);
         } else {

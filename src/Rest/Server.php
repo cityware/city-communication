@@ -28,11 +28,11 @@ class Server {
 
     /** @var array */
     static public $formats = array(
-        'plain' => Format::PLAIN,
-        'txt' => Format::PLAIN,
-        'html' => Format::HTML,
-        'json' => Format::JSON,
-        'xml' => Format::XML,
+        'plain' => self::PLAIN,
+        'txt' => self::PLAIN,
+        'html' => self::HTML,
+        'json' => self::JSON,
+        'xml' => self::XML,
     );
     //@todo add type hint
     public $url;
